@@ -115,6 +115,10 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
+h2 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
 /**
  * Address styling not present in IE 8/9.
  */
@@ -1144,7 +1148,7 @@ section {
   position: absolute;
   bottom: 0;
   width: 100%;
-  color: #000;
+  color: #4d4d4d;
   cursor: pointer;
   height: 32px;
   font-size: 18px; }
@@ -1155,7 +1159,8 @@ section {
   line-height: 48px;
   margin: 0 0 34px;
   padding: 0 30px;
-  text-align: center; }
+  text-align: center;
+  color: #000; }
 
 p {
   font-size: 16px;
