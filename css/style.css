@@ -446,8 +446,15 @@ h6 {
 
 #content {
   margin: 0 auto;
-  width: 90%;
-  max-width: 1000px; }
+  width: 90%; }
+
+#content-header {
+  margin: 60px;
+  width: 90%; }
+
+#post-header {
+  margin: 10px;
+  width: 90%; }
 
 #primary.home {
   width: 73%;
@@ -608,7 +615,7 @@ h6 {
     .post .post-content p {
       line-height: 1.8;
       margin: 25px 0;
-      font-family: "Microsoft YaHei", "微软雅黑", Helvetica, Tahoma, Arial, SimSun, "宋体", STXihei, "华文细黑", Heiti, "黑体", sans-serif; }
+      font-family: 'Century Gothic',"Microsoft YaHei", "微软雅黑", Helvetica, Tahoma, Arial, SimSun, "宋体", STXihei, "华文细黑", Heiti, "黑体", sans-serif; }
     .post .post-content blockquote {
       margin: 2em 0;
       padding-left: 10px;
@@ -875,7 +882,7 @@ h6 {
 
 #colophon {
   width: 90%;
-  margin: 30px auto 0;
+  margin: 0px auto 0;
   padding: 20px 0;
   border-top: 1px solid #e1e1e1;
   color: #aaa;
@@ -1130,6 +1137,9 @@ h6 {
 .slogon a {
   cursor: test; }
 
+section {
+  background-color: white; }
+
 .scroll-down-div {
   position: absolute;
   bottom: 0;
@@ -1139,16 +1149,15 @@ h6 {
   height: 32px;
   font-size: 18px; }
 
-/*h2 {
+h2 {
   font-size: 48px;
   font-weight: normal;
   line-height: 48px;
   margin: 0 0 34px;
   padding: 0 30px;
-  text-align: center;
-}
+  text-align: center; }
+
 p {
   font-size: 16px;
   line-height: 28px;
-  margin: 0 0 20px;
-}*/
+  margin: 0 0 20px; }
